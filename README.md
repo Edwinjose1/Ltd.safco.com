@@ -1,73 +1,114 @@
-# Welcome to your Lovable project
+# SAFCO - Subhaprabhatham Agro Farmers Producer Company
 
-## Project info
+**Growing Together, Empowering Lives**
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A modern web application showcasing SAFCO's mission to empower women and farmers through sustainable investments, gold loans, and various support initiatives.
 
-## How can I edit this code?
+## 🌐 Live Site
 
-There are several ways of editing your application.
+- **GitHub Pages**: https://edwinjose1.github.io/Ltd.safco.com/
+- **Repository**: https://github.com/Edwinjose1/Ltd.safco.com
 
-**Use Lovable**
+## 🚀 Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js (v18 or higher)
+- npm or yarn
 
-**Use your preferred IDE**
+### Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+# Clone the repository
+git clone https://github.com/Edwinjose1/Ltd.safco.com.git
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Navigate to the project directory
+cd Ltd.safco.com
 
-Follow these steps:
+# Install dependencies
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server will start at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📜 Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🛠️ Technologies Used
 
-## What technologies are used for this project?
+- **Vite** - Next-generation frontend tooling
+- **React 18** - UI library
+- **TypeScript** - Type-safe JavaScript
+- **React Router** - Client-side routing
+- **shadcn-ui** - Beautiful UI components
+- **Tailwind CSS** - Utility-first CSS framework
+- **Framer Motion** - Animation library
 
-This project is built with:
+## 📁 Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+├── src/
+│   ├── components/     # React components
+│   │   ├── ui/         # shadcn-ui components
+│   │   └── ...         # Custom components
+│   ├── pages/          # Page components
+│   ├── assets/         # Images and static assets
+│   ├── hooks/          # Custom React hooks
+│   └── lib/            # Utility functions
+├── public/             # Static files
+└── .github/            # GitHub Actions workflows
+```
 
-## How can I deploy this project?
+## 🌍 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+This project is automatically deployed to GitHub Pages using GitHub Actions.
 
-## Can I connect a custom domain to my Lovable project?
+### Manual Deployment
 
-Yes, you can!
+1. Build the project:
+   ```bash
+   npm run build
+   ```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+2. The `dist` folder contains the production-ready files
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### GitHub Pages
+
+The site is automatically deployed when you push to the `main` branch. Make sure:
+- GitHub Pages is enabled in repository settings
+- Source is set to "GitHub Actions"
+- The workflow runs successfully in the Actions tab
+
+## 📄 Pages
+
+- **Home** (`/`) - Main landing page
+- **Services** (`/services`) - Services overview
+- **Swatantra** (`/swatantra`) - Swatantra project showcase
+- **WanderWing** (`/wanderwing`) - WanderWing project showcase
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is private and proprietary.
+
+## 📧 Contact
+
+For inquiries about SAFCO, please visit the website or contact through the provided channels.
+
+---
+
+Built with ❤️ for SAFCO
