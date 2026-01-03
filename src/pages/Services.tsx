@@ -156,8 +156,8 @@ const Services = () => {
                   <RefreshCw className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#103C36]">Recurring Contribution</h3>
-                  <p className="text-sm text-gray-500">Steady growth with regular monthly investments contribution.</p>
+                  <h3 className="text-xl font-bold text-[#103C36]">Recurring Deposit</h3>
+                  <p className="text-sm text-gray-500">Steady growth with regular monthly investments deposit.</p>
                 </div>
               </div>
               <div className="overflow-x-auto">
@@ -196,7 +196,7 @@ const Services = () => {
                   <TrendingUp className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#103C36]">Fixed Contribution (Monthly Scheme)</h3>
+                  <h3 className="text-xl font-bold text-[#103C36]">Fixed Deposit (Monthly Scheme)</h3>
                   <p className="text-sm text-gray-500">Monthly returns on your lump sum investment.</p>
                 </div>
               </div>
@@ -236,7 +236,7 @@ const Services = () => {
                   <Lock className="w-6 h-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#103C36]">Fixed Contribution (Maturity Scheme)</h3>
+                  <h3 className="text-xl font-bold text-[#103C36]">Fixed Deposit (Maturity Scheme)</h3>
                   <p className="text-sm text-gray-500">Maximize your returns with compound growth.</p>
                 </div>
               </div>
