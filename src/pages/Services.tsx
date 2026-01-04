@@ -21,7 +21,7 @@ import {
 
 const Services = () => {
   const requirements = [
-    { icon: IdCard, text: "Aadhar Card" },
+    { icon: IdCard, text: "Aadhaar Card" },
     { icon: FileText, text: "Valid ID Proof" },
     { icon: FileText, text: "2 Passport Photos" },
   ];
@@ -205,8 +205,8 @@ const Services = () => {
                   <thead className="bg-[#103C36] text-white">
                     <tr>
                       <th className="p-4 font-semibold text-sm uppercase tracking-wider">Plan</th>
-                      <th className="p-4 font-semibold text-sm uppercase tracking-wider">Mthly Profit %</th>
-                      <th className="p-4 font-semibold text-sm uppercase tracking-wider">Invest (₹)</th>
+                      <th className="p-4 font-semibold text-sm uppercase tracking-wider">Monthly Profit %</th>
+                      <th className="p-4 font-semibold text-sm uppercase tracking-wider">Invest Amount(₹)</th>
                       <th className="p-4 font-semibold text-sm uppercase tracking-wider">Total Maturity (₹)</th>
                     </tr>
                   </thead>

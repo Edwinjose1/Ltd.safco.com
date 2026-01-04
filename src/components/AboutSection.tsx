@@ -38,7 +38,7 @@ const AboutSection = () => {
             </motion.h2>
             <motion.div variants={itemVariants} className="space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                SAFCO (Subhaprabhatham Agro Farming Producer Company) is an
+                SAFCO (Subhaprabhatham Agro Farmers Producer Company) is an
                 organisation that collects investments from investors and provides
                 them with reliable returns. The company uses these investments to
                 uplift women from economically weaker sections by offering business
@@ -54,7 +54,7 @@ const AboutSection = () => {
             </motion.div>
 
             {/* Feature Pills */}
-            <motion.div 
+            <motion.div
               variants={itemVariants}
               className="flex flex-wrap gap-3 mt-8"
             >
@@ -82,7 +82,7 @@ const AboutSection = () => {
           >
             {/* Background Decoration */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] rounded-full bg-gradient-to-br from-primary/5 to-accent/5 blur-3xl" />
-            
+
             {/* Image 1 - Top Right */}
             <motion.div
               className="absolute top-0 right-0 w-4/5 h-64 md:h-72 rounded-2xl overflow-hidden shadow-xl image-reveal group"
@@ -91,13 +91,13 @@ const AboutSection = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               whileHover={{ rotate: 0, scale: 1.02, zIndex: 10 }}
             >
-              <img 
-                src={aboutProduce} 
+              <img
+                src={aboutProduce}
                 alt="Hands holding organic grains and produce"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/40 via-transparent to-transparent" />
-              <motion.div 
+              <motion.div
                 className="absolute bottom-4 left-4 right-4"
                 initial={{ opacity: 0, y: 10 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -108,7 +108,7 @@ const AboutSection = () => {
                 </span>
               </motion.div>
             </motion.div>
-            
+
             {/* Image 2 - Bottom Left */}
             <motion.div
               className="absolute bottom-0 left-0 w-4/5 h-64 md:h-72 rounded-2xl overflow-hidden shadow-2xl image-reveal group"
@@ -117,13 +117,13 @@ const AboutSection = () => {
               transition={{ duration: 0.6, delay: 0.6 }}
               whileHover={{ rotate: 0, scale: 1.02, zIndex: 10 }}
             >
-              <img 
-                src={aboutBoutique} 
+              <img
+                src={aboutBoutique}
                 alt="Woman entrepreneur at boutique"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/40 via-transparent to-transparent" />
-              <motion.div 
+              <motion.div
                 className="absolute bottom-4 left-4 right-4"
                 initial={{ opacity: 0, y: 10 }}
                 animate={isInView ? { opacity: 1, y: 0 } : {}}

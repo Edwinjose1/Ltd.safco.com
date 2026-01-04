@@ -4,7 +4,8 @@ import Header from "@/components/Header";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Plane, Map, Compass, Globe } from "lucide-react";
 import landscapeImg from "@/assets/wanderwing/landscape.png";
-import cultureImg from "@/assets/wanderwing/culture.png";
+// import cultureImg from "@/assets/wanderwing/culture.png";
+const cultureImg = "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1";
 import detailImg from "@/assets/wanderwing/detail.png";
 
 const WanderWing = () => {
